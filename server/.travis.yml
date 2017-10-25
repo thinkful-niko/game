@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: gXMmlB/IYWA6CsI2Msug9kCm1ZGDnqzA+JFDFY90X5zprAk0uKF2jjkJgMYEluwdZjD0RyhvQuPUrrOjlmXk/23GrB5s+i44eh7jSY6mlr9Eocz9YLWrMqsOqm3M4cQ0jysYvpjhkdLbjtn9Qbvy/qZify16NihUfQJGsRLNFHlX5piqGPX1XPofuirJbRcYqj3zCpuSvHlKHvFjQMVwwTnPCBD0qQ4nnhkiJfuXNUbidUCtyKt5Vvu5Xpe0qRXksWDeNszIJWOr2M0gHiBnpBf1/SMAaJ/gxtEs/UX9ZrjFDIOrr5IndzsNv14gMglQxFRHL65UOxjvB+sPwFcBpXqxmwiFX2kk5ITeAPsuIUvsKQR0wL+8VJePV4OXr7HDYETahHyzRZIIrTjoopJbmFlV5TUj/P7Q7YznC9W5q0Xvse8kvdUizXomJXrECdqdazr/Y9ktE0Vj+oodP8Ll7ajD7H6r2co2MmQedY+ND2kY2vU4eEcV1xVU0n+ZXLyixTOKz/k/JrGYIpXK6Uj8bj0ZepouyvEYAQi0fP27iverF4oe2XO0BWadri7zxOR+D558O1UeXnvhlOS6GHgIbM0niNb0RyhEeyc6rJqAaHema+sV+cQ0+MHCVLa74J9asw3unQgpqK8cCGkDr8OywbbNrX5e45pVL+Z4YW0jEj0=
+  app: map-game-server
+  on:
+    repo: krothenbaum/map-game-server

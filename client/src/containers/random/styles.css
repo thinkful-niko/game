@@ -1,0 +1,19 @@
+.btn {
+	font-size: 20px;
+ border: none;
+ background-color: #056EEE;
+ height:50px;
+ width:250px;
+ cursor:pointer;
+ color: white;
+ border-radius: 2px;
+ transition: background-color .5s ease-in-out;
+ padding-left: 1px;
+ padding-right: 1px;
+}
+
+.btn:hover {
+ background-color: #F50550;
+ color: white;
+ transition: background-color .5s ease-in-out;
+}

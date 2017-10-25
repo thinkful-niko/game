@@ -1,0 +1,25 @@
+body, div, button,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
+fieldset, form, label, legend, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section,
+summary, hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.score {
+	color: #000000;
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+}
+
+.strikes {
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+}

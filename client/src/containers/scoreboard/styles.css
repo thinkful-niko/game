@@ -1,0 +1,65 @@
+
+
+.rank, .name, .score, .rankHeader, .nameHeader, .scoreHeader {
+	font-family: 'VT323', monospace;
+}
+
+.record {
+
+}
+
+.scoreboard-container {
+	text-align: center;
+}
+
+.rank {
+	width: 50px;
+	padding-right: 10px;
+	display: inline-block;
+}
+
+.name {
+	font-size: 24px;
+	width: 25%;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.score {
+	font-size: 24px;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.header {
+	color: #00ff00;
+	font-size: 24px;
+}
+
+.red {
+	color: red;
+}
+
+/*.rankHeader {
+	padding-right: 10px;
+	font-size: 20px;
+	width: 50px;
+	display: inline-block;
+}
+
+.nameHeader {
+	font-size: 20px;
+	width: 25%;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.scoreHeader {
+	font-size: 20px;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+}*/

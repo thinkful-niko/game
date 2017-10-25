@@ -1,0 +1,48 @@
+{
+  "name": "boil",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "can-use-dom": "^0.1.0",
+    "raf": "^3.3.2",
+    "react": "^15.6.1",
+    "react-animated-ellipsis": "^0.3.0",
+    "react-animated-number": "^0.4.3",
+    "react-dom": "^15.6.1",
+    "react-google-maps": "^7.2.0",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.2",
+    "react-router-redux": "next",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^21.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.2",
+    "chai-enzyme": "^0.8.0",
+    "enzyme": "^2.9.1",
+    "gh-pages": "^1.0.0",
+    "jest": "^21.0.2",
+    "mocha": "^3.5.1",
+    "react-addons-test-utils": "^15.6.0",
+    "react-scripts": "1.0.10",
+    "react-test-renderer": "^15.5.4",
+    "redux-mock-store": "^1.2.3",
+    "sinon": "^3.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://krothenbaum.github.io/map-game-client/"
+}
